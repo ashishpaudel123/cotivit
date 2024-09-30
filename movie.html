@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* .container-fluid{
+            height: 50px;
+            background-color: #ffffff;
+        } */
+        .container{
+
+        }
+        .lists-style{
+            list-style-type: none;
+            display: inline-block;
+        }
+        .lists-style li{
+            display: inline-block;
+        }
+        .lists-style li a{
+            text-decoration: none;
+        }
+        .lists-style li a:hover{
+            color: rgba(255, 0, 0, 0.813);
+    
+        }
+        .menu-padding{
+            margin-left: 230px;
+        }
+        .menu-padding li a{
+            padding: 0 40px;
+        }
+
+        .login-margin{
+           
+            position: absolute;
+            right: 5%;
+            top: 18px;
+        }
+        .login-margin li{
+          padding: 10px 15px;
+          
+        }
+
+        .slider{
+            height: 300px;
+            background-image: url(https://onecinemas.com.np/images/cinema/movies/banner/bdb8e37d_f002_47c8_b692_8175a2d7b069_.jpg);
+        }
+        .col-3{
+            border: 1px #b21010 solid;
+            height: 200px;
+        }
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.select-box {
+    position: relative;
+    display: inline-block;
+}
+
+.select-btn {
+    background-color: white;
+    /* color: white; */
+    border: none;
+    padding: 10px 20px;
+    /* font-size: 16px; */
+    /* cursor: pointer; */
+}
+
+.select-options {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.select-options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.select-options a:hover {
+    background-color: #f1f1f1;
+}
+
+.select-box:hover .select-options {
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="container py-3">
+        <img src="https://onecinemas.com.np/images/logo/onecinemalogo-01.png" height="50" alt="">
+        <ul class="lists-style ps-0 menu-padding">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Premium</a>
+            </li>
+            <li>
+                <div class="select-box">
+                    <button class="select-btn">More</button>
+                    <div class="select-options">
+                        <a href="#ticket-rate">Ticket Rate</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#career">Career</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="lists-style ps-0 login-margin">
+            <li>
+                <a href="#">Login</a>
+            </li>
+            <li>
+                <a href="#">Register</a>
+            </li>
+        </ul>
+      </div>  
+    </div>
+    <div class="container-fluid">
+        <div class="slider">
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+                <div class="col-3"><img src="https://onecinemas.com.np/images/cinema/movies/poster/b02cd159_37a6_4827_bfbc_b92a3c5edde8_.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

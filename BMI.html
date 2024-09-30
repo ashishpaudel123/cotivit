@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a,b,bmi;
+        let message = `Your BMI is ${bmi}. `;
+        a=prompt('Enter weight in kG');
+        b=prompt('Enter height in meter');
+        bmi=a/(b*b);
+        if (bmi < 18.5) {
+            message += "You are underweight.";
+        } else if (bmi >= 18.5 && bmi < 25) {
+            message += "You have a normal weight.";
+        } else if (bmi >= 25 && bmi < 30) {
+            message += "You are overweight.";
+        } else {
+            message += "You are obese.";
+        }
+        alert(message);
+    </script>
+</body>
+</html>

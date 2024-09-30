@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+   background-color: #fff;
+   top: 0;
+   left: 0;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+}
+.head ul{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.head ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px 20px;
+    
+}
+.head ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    
+}
+.head ul li:hover{
+    color: rgba(0, 0, 0, 0.781);
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.build-with-us button{
+    padding: 6px 8px;
+    color:#fff;
+    background-color: green;
+    font-weight: bolder;
+    border: none;
+    margin-left: 155px;
+}
+.head ul li:last-child:hover{
+    font-weight: normal;
+    background-color: white;
+    
+}
+.head ul li:last-child{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.intro-image{
+    margin-top: 80px;
+    background-image: url(https://www.lftechnology.com/_next/static/media/aibanner.b5fe040d.webp);
+}
+
+.intro h3{
+    color: gold;
+}
+.intro p{
+    color:#fff;
+    font-size: 14px;
+}
+
+.arrow{
+    color: #fff;
+    padding-left: 3px;
+}
+.slogan{
+    position: absolute;
+    right: 80px;
+    top: 120px;
+    font-weight: bold;
+
+}
+.slogan a{
+    color: #fff;
+
+}
+.innovate{
+    font-family: "Oswald", sans-serif;
+    font-size: 95px;
+    line-height: 100px;
+}
+#faster{
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-size: 90px;    
+    background: -webkit-linear-gradient(left, #01fd33, #002aff,#002aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.title p{
+    font-size: 22px;
+}
+.video iframe{
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 90%;
+    border-radius: 0 0 150px 0;
+}
+.staff{
+    display:flex ;
+    padding: 100px 150px;
+}
+.information{
+    padding: 10px 30px ;
+}
+.quote{
+    font-size: 45px;
+}
+.information p{
+    font-size: 22px;
+}
+.information h4{
+    color: #00a321;
+    font-weight: bolder;
+    background-image: url(https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flaudio_logo_1595e8ecbe.webp&w=256&q=75);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* @media  (max-width:500px){
+    .head ul{
+        font-size: larger;
+        color: #00a321;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+      
+    }
+    .header{
+        position: relative;
+    }
+    .container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+    
+} */

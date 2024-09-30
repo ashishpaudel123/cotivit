@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tom-jerry{
+    height: 600px;
+    width: 585px;
+    margin-left: 25%;
+    background-image: url(./image/jerry.png), url(./image/tom.png), url(./image/fence-single.png), url(./image/bg.png)   ;
+    background-repeat: no-repeat,no-repeat,repeat-x, no-repeat ;
+    background-size: 126px,390px,65px,700px;
+
+    background-position: left bottom, center,bottom,top ;
+    
+}
+

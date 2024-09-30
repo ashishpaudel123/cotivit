@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #31006E; */
+}
+
+.header{
+    
+    padding-top: 25px;
+ 
+}
+
+.logo{
+    padding-left: 50px;
+}
+
+
+.menu-bar{
+    background: #31006E;
+    position: relative;
+    display:flex;
+    top: 0;
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    right: 0px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+    
+}
+.menu li a{
+    color: #ffff;
+    text-decoration: none;
+}
+#home {
+    color: rgba(255, 0, 0, 0.877);
+}
+.section{
+    background-color: #fff;
+    
+    margin-top: 30px;
+    padding: 30px 30px;
+    width: 50%;   
+}
+.title{
+    color: #ffff;
+    padding: ;
+    font-size: 30px;
+}
+small{
+    color: #7F7F7F;
+    font-size: 1rem;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #31006E;
+}
+.paragraph{
+    font-size: 18px;
+    color: #ec008c;
+}
+
+.content-box{
+    margin-top: 50px;
+    background-color: #31006E;
+}
+.content{
+    background-image: url(./cotiviti/Copy\ of\ banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 450px;
+}
+
+.more-info{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    height: 300px;
+}
+.more-info p a{
+    text-decoration: none;
+}
+.more-info p{
+    padding: 80px 0px;
+}
+#join{
+    text-align: center;
+    /* color: #ec008c; */
+    padding: 80px;
+ 
+ }
+ 
+ .manage{
+     color:#31006e ;
+    
+     height: 30px;
+    
+ }
+  #stay{
+    color: aqua;
+    text-align: left;
+    text-size-adjust: 80%;
+  } 
+  #stay h2{
+     color: #ec008c;
+ }
+ /* #stay text::backdrop a.hover{
+     color: #31006e;
+ } */
+   #copy{
+ 
+  position: center;
+     margin: 30px;
+     height: 100px;
+   
+ 
+  } 
+  .point{
+    
+     color: black;
+     height: 40px;
+   
+  }
+
+  .div1 a{
+     border: 1px #ddd solid;
+     padding: 10px 10px;
+     text-decoration: none;
+     
+  }
+  .div1 a:hover{
+
+  color:#fff;
+  background-color: #ec008c;
+    
+ }
+ .div1{
+    display: inline-block;
+    margin-top: 40px;
+ }
+
+.background{
+    background-image: url(./cotiviti/Copy\ of\ join.png);
+    height: 250px;
+
+}
+.navigation-background{
+    background-color: #eaeaea;
+    margin-top: 200px;
+    padding: 40px 0;
+}
+.lists-style li{
+    list-style-type: none;
+
+}
+.lists-style li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    
+}
+.lists-style li a:hover{
+    color: #ec008c;
+    
+}
+.parallel{
+    height: 350px;
+    background-attachment: fixed;
+    background-image: url(./cotiviti/Copy\ of\ parallax-home.jpg);
+}
+.for-margin{
+    margin-top: 26px;
+}
+#organization{
+    font-weight: bolder;
+    color:#000000af
+
+}
+
+/* @media  (max-width:320px){
+    .content{
+        width: 100%;
+        height: 10%;
+      
+    }
+    
+} */
